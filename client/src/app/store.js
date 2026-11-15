@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import workspaceReducer from '../features/workspaceSlice'
+import workspaceReducer from '../features/workspaceSlice.js'
 import themeReducer from '../features/themeSlice'
 
 export const store = configureStore({
